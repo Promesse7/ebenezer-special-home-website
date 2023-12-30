@@ -1,0 +1,449 @@
+
+    *{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+  
+    }
+
+
+
+/*----------------- header starts from here-------- */
+
+body{
+    background: #010718;
+}
+.mainnn{
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 80%;
+    /* position: absolute; */
+  }
+  
+  .topper{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+  }
+  
+  .topper_image{
+  width: 10em;
+  height: 9.5em;
+  border-radius: 50%;
+  border-bottom: 2px solid #fff;
+  border: none;
+  outline: none;
+  position: relative;
+  }
+  
+  .topper h1{
+    font-size: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  a{
+    text-decoration: none;
+    text-decoration-color: none;
+  }
+  .btn_links{
+    height: 20px;
+    border: 1px solid #fff;
+   
+  }
+  .contain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 0 80px 0 80px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid gray;
+    backdrop-filter: blur(15);
+    border-radius: 18px;
+    height: 50px;
+    margin-top: 5%;
+  }
+  
+  .links{
+    /* margin-top: 5%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+  }
+  .links h5{
+    font-size: 20;
+    text-align: center;
+    color: #fff;
+  
+  }
+  .contain a{
+    color: #fff;
+  }
+  .links h5:hover{
+    color: #fff;
+  font-size: 20px;
+    text-emphasis: circle;
+  }
+  h5.home{
+    font-size: 40px;
+  
+  }
+  h5.home:hover{
+    font-size: 45px;
+    padding-bottom: 35px;
+   
+  }
+  
+  
+  
+  /*----------------- header ends  here-------- */
+
+
+
+    .top{
+        display: flex;
+    }
+    .left{
+        float: left;
+        background-color: none;
+        margin: 20px;
+    }
+    .right{
+        background-color:none;
+        float: left;
+        display: flex;
+        padding-left: 150px;
+        align-items: center;
+    }
+    h2{
+        padding-left: 45px;
+    }
+    a{
+        text-decoration: none;
+        text-decoration-color: none;
+    }
+ 
+  .first{
+      color: blue;
+      text-align: right;  
+  }
+  .staff{
+      display: inline-flex;
+      padding-left: 40px;
+      padding-right: 20px;
+      padding-top: 10px;
+      color: dodgerblue;
+      font-size: medium;
+  }
+  .prefect{
+      float: right;
+      font-size: medium;
+  }
+  .studies{
+      text-align: center;
+  }
+  .master{
+      float: left;
+  }
+  .imgh{
+      width: 29%;
+      height: 20.9%;
+      margin: 20px;
+  }
+  .paragraph{
+      display: flex;
+      align-items: center;
+      margin-top: 2.5%;
+      margin-left: 5%;
+  }
+  .upp{
+      float: right;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+  }
+  button{
+      background-color: black;
+      border-radius: 5px; 
+       margin-left: 20px;
+  }
+  .pic{
+      border-radius: 100px;
+      width: 200px;
+      height: 200px;
+  }
+    nav.doorway{
+      color: white;
+      background-color: rgb(113, 133, 151);
+      display: flex;
+      justify-content: center;
+  }
+  .doorway_2{
+  background-color: rgb(5, 75, 124);
+  display: flex;
+  color: white;
+  }
+  .sideview{
+      color: white;
+      margin-left: 500px;
+      background-color: rgb(3, 88, 147);
+  }
+  .contactForm{
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    padding-left: 40%;
+  }
+  .containe-cont{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .contactus{
+      color: white;
+      padding: 2rem;
+      text-align: center;
+  }
+  .row input, textarea{
+    margin: 0.5% 0 0.5% 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom:2px solid #fff;
+    margin: 1.5%;
+    width: 35%;
+    text-align: center;
+  }
+  .row textarea{
+    padding: 5% 0 5% 0;
+ }
+  .row label{
+    left: 25%;
+    /* top: 50%; */
+    position: absolute;
+    /* transform: translateY(50%); */
+    font-size: 20px;
+    color: #fff;
+    pointer-events: none;
+  }
+ 
+  .footer P{
+        text-align: center;
+        /* color: gray; */
+        letter-spacing: 2px;
+        font-size: 20px;
+        line-height-step: 5px;
+    }
+ 
+    .text-uppercase{
+        text-align: center;
+     padding-top: 5%;
+     padding-bottom: 3%;
+    }
+    .pageSidebar li{
+        padding: 10px 0 ;
+    }
+ .row button{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    color: #010718;
+    width: 35%;
+    height: 2.6%;
+    font-size: 20px;
+    cursor: pointer;
+ }
+
+  #words{
+      background-color:rgb(113, 133, 151);
+  color: white;
+  }
+  .list_2{
+      align-items: center;
+  }
+  .Li1{
+  list-style-type: circle;
+  }
+  li{
+    list-style: none;
+  }
+    .contact2{
+      border-radius: 25px;
+     border: solid whitesmoke;
+      height: 60px;
+      width: 380px;
+      padding-left: 50px;
+    }
+    .contact1{
+      border-radius: 35px;
+     border: solid whitesmoke;
+      height: 60px;
+     padding: 1px 130px;
+     font-size: 30px;
+    }
+  
+    .last{
+      height: 4.5rem;
+      font-family: Helvetica,Arial,メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+      background-color: blue;
+      text-align: center;
+      color: whitesmoke;
+    }
+  
+    .footer{
+    margin-top: 2rem;
+    font-size: 20px;
+    color: #fff;
+    }
+    .footer img{
+        width: 60%;
+        height: 60%;
+        align-items: center;
+        text-align: center;
+        padding-left: 22%;
+    }
+  
+    .phantom{
+      width: 25rem;
+  
+    }
+
+  .staff{
+      display: inline-flex;
+      padding-left: 40px;
+      padding-right: 20px;
+      padding-top: 10px;
+      color: dodgerblue;
+      font-size: medium;
+  
+  }
+  .prefect{
+      float: right;
+      font-size: medium;
+  }
+  .studies{
+      text-align: center;
+  }
+  .master{
+      float: left;
+  }
+  .imgh{
+      width: 29%;
+      height: 20.9%;
+      margin: 20px;
+  }
+  .paragraph{
+      display: flex;
+      align-items: center;
+  }
+  
+  
+  .tab{
+      color: blue;
+  }
+  
+  .pic{
+      border-radius: 100px;
+      width: 200px;
+      height: 200px;
+  }
+  .top{
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      display: none;
+      display: flex;
+      color: goldenrod;
+      font-size: 20px;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100%;
+      background-color: bisque;
+  }
+  .left{
+    float: left;
+    background-color: none;
+    margin: 20px;
+  }
+  .right{
+    background-color: none;
+    display: flex;
+    padding-left: 10px;
+    /* font-size: 20px; */
+    align-items: center;
+  
+  }
+  
+  /*menu*/
+  
+  .tab-container {
+    position: relative;
+  }
+  
+  .menu {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke; /* Initial color */
+  margin-left: 25rem;
+  }
+  .menu:hover{
+    color: blue;
+  }
+  
+  .content {
+    display: inline-block;
+    padding: 10px 20px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color: black;
+    margin-left: 15rem;
+    }
+    
+    .menu:hover .content {
+    display: block;
+      
+    }
+  
+    #par{
+      margin-left: 5rem;
+      font-size: 2rem;
+    }
+     
+  /*back to top*/
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #555;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #777;
+  }
+  

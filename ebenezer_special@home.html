@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ebenezer Special | Home</title>
+    <link rel="stylesheet" href="./css files/ebenezer_special@home.css">
+    <script src="./js/ebenezer_special@home.js"></script>
+   <link rel="stylesheet" href="./spiner.css">
+    <link rel="icon" href="./images@ebenezer/beds.jpg" style="border-radius: 50%;">
+    <meta name="msapplication-TileImage" content="beds.jpg" /> 
+
+
+    <script src="./js/spinner.js"></script>
+</head>
+<body>
+    <section class="main">
+    <div class="topper">
+        <img class="topper_image" src="./images@ebenezer/beds.jpg" alt="ebenezer">
+        <h1>Ebenezer Special Home</h1>
+    </div>
+    <nav class="contain">
+        <div class="links">
+            <h5>
+                <a href="./ebenezer_special@portiforio.html "> Portifolio</a>
+            </h5>
+           </div>
+        <hr class="btn_links">
+        <div class="links">
+            <h5>
+                <a href="./ebenezer_special@services.html">Our Services</a>
+            </h5>
+        </div>
+        <hr class="btn_links">
+        <div class="links">
+            
+            <h5 class="home">
+                <a href="./#">Home</a>
+            </h5>
+        </div>
+        <hr class="btn_links">
+        <div class="links">
+            <h5>
+                <a href="./#">Book A Room</a>
+            </h5>
+        </div>
+        <hr class="btn_links">
+        <div class="links">
+            <h5>
+                <a href="./#">Contact Us</a>
+            </h5>
+        </div>  
+    </nav>
+    <nav class="services">
+        <h1 >Our Services</h1>
+
+    </nav>
+</section>
+
+
+<!---------- slideshow starts here --------->
+
+
+
+
+
+
+<nav class="slideshow">
+  
+        <a href="#" class="slideshowlink">
+            <H1>
+           ROOMS
+            </H1>
+            <img src="./images@ebenezer/download (1).jpg" alt="image">
+           <!-- <a href="#"><button type="button"></button></a>  -->
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                SAUNA
+            </H1>
+            <img src="./images@ebenezer/download.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                FOOD
+            </H1>
+            <img class="lightit" src="./images@ebenezer/food.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <h1>
+                RESTAURANT
+            </h1>
+            <img src="./images@ebenezer/restor.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                MASSAGE
+            </H1>
+            <img src="./images@ebenezer/massag.jpg" alt="image">
+        </a>
+       
+</nav>
+
+<script>
+const slideshow= document.querySelector(".slideshow")
+
+setInterval(() => {
+const firstIcon= slideshow.firstElementChild
+
+
+firstIcon.classList.add('faded-out')
+
+
+setTimeout(() => {
+   slideshow.removeChild(firstIcon)
+    slideshow.appendChild(firstIcon) 
+    
+    setTimeout(() => {
+        firstIcon.classList.remove('faded-out')   
+    }, 500);
+    
+}, 500);
+
+}, 3000);
+</script>
+
+
+<!---------- slideshow ends here --------->
+
+
+
+
+<!---------- typing starts here --------->
+
+
+<section class="type">
+
+    <div class="container">
+        <span class="text first-text">Ebenezer Special >> </span>
+        <span class="text sec-text"></span>
+    </div>
+    <script>
+        const text= document.querySelector(".sec-text");
+        const textLoad = () =>{
+            setTimeout(() => {
+                text.textContent="Relax.";  
+            }, 0);
+            setTimeout(() => {
+                text.textContent="Be happy.";  
+            }, 4000);
+            setTimeout(() => {
+                text.textContent="Welcome.";  
+            }, 8000);
+        }
+        textLoad();
+        setInterval(textLoad, 12000);
+    </script>
+    
+</section>
+
+
+<!---------- typing ends here --------->
+
+<button id="scrollToTopBtn" onclick="scrollToTop()">To Top</button>
+<script>
+    function scrollToTop() {
+window.scrollTo({
+top: 0,
+behavior: 'smooth' // This smooth scrolling effect may not be supported by all browsers.
+});
+}
+</script>
+<script>
+window.onscroll = function() {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      scrollToTopBtn.style.display = "block";
+    } else {
+      scrollToTopBtn.style.display = "none";
+    }
+  }
+  </script>
+
+
+<div class="loader"></div>
+
+</body>
+</html>

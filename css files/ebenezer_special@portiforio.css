@@ -1,0 +1,524 @@
+*{
+  /* margin: 5px;
+  padding: 0; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   /* color: #fff; */
+}
+body{
+  background-color: #010718;
+}
+
+
+
+
+
+
+
+
+/*----------------- header starts from here-------- */
+
+
+.mainnn{
+  margin-top: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: block;
+  width: 100%;
+  height: 80%;
+  /* position: absolute; */
+}
+
+.topper{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.topper_image{
+width: 10em;
+height: 9.5em;
+border-radius: 50%;
+border-bottom: 2px solid #fff;
+border: none;
+outline: none;
+position: relative;
+}
+
+.topper h1{
+  font-size: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+a{
+  text-decoration: none;
+  text-decoration-color: none;
+}
+.btn_links{
+  height: 20px;
+  border: 1px solid #fff;
+ 
+}
+.contain{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin: 0 80px 0 80px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid gray;
+  backdrop-filter: blur(15);
+  border-radius: 18px;
+  height: 50px;
+  margin-top: 5%;
+}
+
+.links{
+  /* margin-top: 5%; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.links h5{
+  font-size: 20;
+  text-align: center;
+  color: #fff;
+
+}
+.contain a{
+  color: #fff;
+}
+.links h5:hover{
+  color: #fff;
+font-size: 20px;
+  text-emphasis: circle;
+}
+h5.home{
+  font-size: 40px;
+}
+h5.home:hover{
+  font-size: 45px;
+  padding-bottom: 30px;
+}
+
+
+
+/*----------------- header ends  here-------- */
+
+
+
+/* ------------------------------slideshow starts here =============================*/
+
+
+
+
+.sliding-image img {
+  /* margin-top: 50vh; */
+    width: 100%;
+    height: auto;
+    animation: slide-image 15s linear infinite;
+  }
+  @keyframes slide {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 0 100%;
+    }
+  }
+  @keyframes slide-image {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  .slideshow-container {
+    margin-top: 2%;
+    position: relative;
+    width:60%;
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 20%;
+    border-radius: 50px;
+    /* padding-top: 40%; */
+  }
+  
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slideshow 20s infinite;
+  }
+  
+  .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .slide h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .slide p {
+    font-size: 1.2rem;
+  }
+  
+  @keyframes slideshow {
+    0% {
+      background-image: url(./images@ebenezer/bedrro.jpg);
+    }
+    25% {
+      background-image: url(./images@ebenezer/download.jpg);
+    }
+    50% {
+      background-image: url(./images@ebenezer/download\ \(7\).jpg);
+    }
+    75% {
+      background-image: url(./images@ebenezer/desert.jpg);
+    }
+    100% {
+      background-image: url(./images@ebenezer/massage.jpg);
+    }
+  }
+  
+  
+
+
+
+/* ------------------------------slideshow ends here =============================*/
+
+
+.paragraph{
+  font-size: 30px;
+  color: #fff;
+
+}
+.con{
+display: flex;
+
+}
+
+.bttn{
+  width: 90wh;
+  border: 0.5px solid #fff;
+  margin: 2% 0 2% 0;
+}
+/* h2{
+  padding-left: 20px;
+} */
+a{
+  text-decoration: none;
+  text-decoration-color: none;
+}
+
+.top-h1{
+  font-size: 200%;
+ padding-top: 300px; 
+ color:bisque;
+}
+ 
+    .parag{
+      color: white;
+      font-size: medium;
+    }
+    
+.group{
+  line-height: 1.5em;
+  text-align: center;
+  font-size: 18px;
+}
+.paragraph{
+  text-align: center;
+  font-size: 40px;
+}
+.image1{
+  text-align: end;
+  height: 400px;
+  width: 400px;
+ padding-top: 10px;
+ margin-left: 8%;
+ color: #fff;
+}
+.image2{
+  text-align: end;
+  height: 300px;
+  width:300px;
+  padding-top: 80px;
+  margin-left: 5%;
+  color: #fff;
+}
+.image3{
+  text-align: end;
+  height: 250px;
+  width: 250px;
+  margin-top: 8%;
+  margin-left: 5%;
+  color: #fff;
+}
+.hed{
+  color: #fff;
+  text-align: center;
+  padding: 3% 0 3% 0;
+}
+.image1 img{
+  height: 100%;
+  width: 100%;
+ border-radius: 50px;
+}
+.image2 img{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+.image3 img{
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+/* our slideshow starts here*/
+
+
+
+
+
+
+.slideshow{
+  width:95.15% ;
+  height: 60vh;
+  background:#010718;
+  background-size: cover;
+  display: flex;
+  padding: 0 2em;
+  align-items: center;
+  padding-top: 2vh;
+}
+.slideshowlink{
+  width: 20%;
+  border: 2px solid #fff;
+  height: 280px;
+  border-left: 0;
+  border-right: 0;
+  align-items: center;
+  text-align: center;
+  filter: brightness(0.3);
+
+}
+.slideshowlink:nth-child(1),
+.slideshowlink:nth-child(5){
+  transition: opacity 0.5s, width 0.5s;
+  
+}
+img{
+  border-radius: 50%;
+  width: 70%;
+  margin: 0 10px 10px 10px;
+  border: 2px solid #fff;
+  height: 70%;
+}
+
+.faded-out {
+  opacity: 0;
+  width: 0;
+}
+.slideshow H1{
+  color: #fff;
+}
+
+.slideshowlink:nth-child(3){
+  filter: brightness(1.5);
+}
+
+
+
+
+
+
+/* =========================== our slideshow ends here ===========*/
+
+
+.servicesall{
+  height: 100vh;
+  width: 100wh;
+}
+.world{
+  padding-bottom: 3%;
+  padding-top: 3%;
+  text-align: center;
+ color: #fff;
+  font-size: 28px ;
+  margin-bottom: 20px;
+}
+
+
+.world:hover{
+  background-color: #fff;
+  color: #010718;
+}
+.image{
+  padding-left: 0;
+  padding-top: 0;
+  height: 86%;
+  width: 75%;
+}
+.mission{
+  display: flex;
+  color: #fff;
+}
+.head{
+  color: #fff;
+  text-align: center;
+  translate: 50%, -50%;
+}
+.para{
+  font-size: 200%;
+  padding-top: 5%;
+  text-align: center;
+  padding-right: 5%;
+  padding-left: 5%;
+  color: #fff;
+}
+.VISION{
+  display: flex;
+  color: #fff;
+}
+.vision{
+  height: 86%;
+  width: 45%;
+  color: #fff;
+}
+.VISION2{
+  padding-left: 6%;
+  text-align: center;
+    color: #fff;
+    padding-top: 4%;
+}
+.par{
+ 
+  font-size: 150%;
+  padding-top: 4%;
+  align-items: center;
+  color: #fff;
+}
+.message{
+  display: flex;
+  color: #fff;
+  
+
+}
+.MESSAGE{
+  height: 80%;
+  width: 55%;
+  color: #fff;
+  margin-top: 8%;
+}
+.principal{
+  padding-left: 2%;
+  padding-right: 8%;
+  font-size: 150%;
+  padding-top: 3%;
+  align-items: center;
+  color: #fff;
+}
+.h{
+  padding-left: 12%;
+}
+.pa{
+  text-align: center;
+  width: 70%;
+}
+.into{
+  display: flex;
+  /*flex-direction: column;*/
+  image-resolution: 1080px;
+  color: #fff;
+}
+
+.descr{
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px #ff0000;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.imager{
+  width: 680px;
+  height: 500px;
+  image-rendering: auto;
+  image-resolution: 1080px;
+  
+}
+
+.main{
+  display: flex;
+}
+
+.stu{
+  
+  height: 30rem;
+  width: 28rem;
+}
+
+
+
+b{
+  font-size: 2rem;
+}
+
+
+  /*back to top*/
+  #scrollToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    color: #010718;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  #scrollToTopBtn:hover {
+    background-color: #a09e9e;
+  }
+
+
+
+  
+
+
