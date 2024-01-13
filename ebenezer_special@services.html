@@ -11,6 +11,74 @@
     <script src="./js/spinner.js"></script>
 </head>
 <body>
+    <!---------- slideshow starts here --------->
+
+
+
+
+
+
+<nav class="slideshow">
+  
+        <a href="#" class="slideshowlink">
+            <H1>
+           ROOMS
+            </H1>
+            <img src="./images@ebenezer/download (1).jpg" alt="image">
+           <!-- <a href="#"><button type="button"></button></a>  -->
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                SAUNA
+            </H1>
+            <img src="./images@ebenezer/download.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                FOOD
+            </H1>
+            <img class="lightit" src="./images@ebenezer/food.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <h1>
+                RESTAURANT
+            </h1>
+            <img src="./images@ebenezer/restor.jpg" alt="image">
+        </a>
+        <a href="#" class="slideshowlink">
+            <H1>
+                MASSAGE
+            </H1>
+            <img src="./images@ebenezer/massag.jpg" alt="image">
+        </a>
+       
+</nav>
+
+<script>
+const slideshow= document.querySelector(".slideshow")
+
+setInterval(() => {
+const firstIcon= slideshow.firstElementChild
+
+
+firstIcon.classList.add('faded-out')
+
+
+setTimeout(() => {
+   slideshow.removeChild(firstIcon)
+    slideshow.appendChild(firstIcon) 
     
+    setTimeout(() => {
+        firstIcon.classList.remove('faded-out')   
+    }, 500);
+    
+}, 500);
+
+}, 3000);
+</script>
+
+
+<!---------- slideshow ends here --------->
+
 </body>
 </html>
