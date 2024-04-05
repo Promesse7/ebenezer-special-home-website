@@ -55,21 +55,16 @@
 </nav>
 
 <script>
-const slideshow= document.querySelector(".slideshow")
-
+const slideshow= document.querySelector(".slideshow");
 setInterval(() => {
-const firstIcon= slideshow.firstElementChild
-
-
-firstIcon.classList.add('faded-out')
-
-
+const firstIcon= slideshow.firstElementChild;
+firstIcon.classList.add('faded-out');
 setTimeout(() => {
-   slideshow.removeChild(firstIcon)
-    slideshow.appendChild(firstIcon) 
+   slideshow.removeChild(firstIcon);
+    slideshow.appendChild(firstIcon); 
     
     setTimeout(() => {
-        firstIcon.classList.remove('faded-out')   
+        firstIcon.classList.remove('faded-out');   
     }, 500);
     
 }, 500);
